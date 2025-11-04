@@ -22,20 +22,20 @@ Delete the user from the system
 
 **AccuKnox-user-management-tests/**
 │
-├── pages/                # Page Object Model classes
+├── pages/                  # Page Object Model classes
 │   ├── login_page.py
 │   └── admin_page.py
 │
-├── tests/                # Pytest test scripts
+├── tests/                   # Pytest test scripts
 │   ├── test_add_user.py
 │   ├── test_search_user.py
 │   ├── test_edit_user.py
 │   ├── test_validate_user.py
 │   └── test_delete_user.py
 │
-├── conftest.py           # Browser fixture setup
-├── requirements.txt      # Dependencies
-├── README.md             # Project documentation
+├── conftest.py             # Browser fixture setup
+├── requirements.txt        # Dependencies
+├── README.md               # Project documentation
 └── AccuKnox_User_Management_TestCases.xlsx  # Manual test cases
 
 
@@ -60,8 +60,7 @@ pytest --headed -q
 **Run specific test file:**
 pytest tests/test_add_user.py --headed
 
-**Run in headless mode (without opening browser):
-**
+Run in headless mode (without opening browser):
 pytest --headless
 
 🧪 Playwright Version Used
